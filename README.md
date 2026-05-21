@@ -1,35 +1,95 @@
 ﻿# food-delivery-fast-delay-cli
 
- 4. Food Delivery Assignment Optimization System
-Business Context
-A food delivery company wants to optimize delivery assignment to reduce delivery time and improve efficiency.
-Design Objective
-Create a system to:
-•	Register restaurants, delivery agents, customers 
-•	Assign orders to optimal delivery agent 
-•	Track delivery time 
-•	Optimize routes (basic simulation) 
-•	Generate performance reports 
-Main Flows
-•	Order placement 
-•	Delivery agent availability tracking 
-•	Assignment engine (nearest + least busy) 
-•	Delivery lifecycle tracking 
-•	Analytics reports 
-Business Rules
-•	One delivery agent handles one active order at a time 
-•	Assign nearest available agent 
-•	Late delivery reduces agent rating 
-Constraints
-•	Location must be validated 
-•	Delivery time must be tracked in real time 
-•	Order cannot be reassigned after pickup 
-Storage
-•	In-memory graph/grid simulation 
-SQL Use Case
-Find fastest delivery agents and restaurants with highest delay rate.
+# Food Delivery Assignment Optimization System
+
+## Project Overview
+This project is a CLI-based Food Delivery Assignment Optimization System developed using Java and OOP concepts.
+
+The system simulates how a food delivery company manages restaurants, customers, delivery agents, and food delivery orders while optimizing delivery assignment.
+
+The project focuses on:
+- Delivery assignment optimization
+- Real-time delivery tracking simulation
+- Delay analysis
+- Performance reporting
+- In-memory storage simulation
+
+---
+
+# Business Problem
+Food delivery companies need efficient delivery assignment systems to:
+- Reduce delivery time
+- Improve delivery efficiency
+- Track delivery agent performance
+- Minimize delayed deliveries
+
+This project simulates a simplified optimization engine that assigns the nearest and least busy delivery agent to customer orders.
+
+---
+
+# Features
+
+## Core Functionalities
+- Register Restaurants
+- Register Customers
+- Register Delivery Agents
+- Place Orders
+- Assign Optimal Delivery Agent
+- Track Delivery Lifecycle
+- Generate Analytics Reports
+
+---
+
+# Main Flows
+
+## 1. Order Placement
+Customers place food orders from restaurants.
+
+## 2. Delivery Agent Availability Tracking
+The system tracks whether an agent is:
+- Available
+- Busy
+- Delivering an active order
+
+## 3. Assignment Engine
+The system assigns:
+- Nearest available delivery agent
+- Least busy delivery agent
+
+## 4. Delivery Lifecycle Tracking
+Tracks:
+- Order placed
+- Assigned
+- Picked up
+- Delivered
+
+## 5. Analytics Reports
+Generate reports for:
+- Fastest delivery agents
+- Restaurants with highest delay rate
+
+---
+
+# Business Rules
+
+- One delivery agent can handle only one active order at a time
+- Nearest available agent is assigned first
+- Late delivery reduces agent rating
+- Order cannot be reassigned after pickup
+- Locations must be validated
+- Delivery time must be tracked
+
+---
+
+
+
+
+
+
 
 #Output
+
+
 <img width="551" height="278" alt="image" src="https://github.com/user-attachments/assets/c53af9da-a055-41c3-8f19-a06d314f4080" />
 
 <img width="470" height="290" alt="image" src="https://github.com/user-attachments/assets/2ec4778f-d419-47e4-b19f-699f9f12f9a1" />
